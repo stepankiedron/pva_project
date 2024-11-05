@@ -44,7 +44,7 @@
     }
 }
 
-@media(max-height: 568px) {
+@media(max-width: 568px) {
     .l-heading {
         font-size: 2rem;
     }
@@ -59,6 +59,9 @@
     }
 
     #navbar ul li a{
-        padding: 0 1rem;
+        padding: 0 0.5rem;
+    }
+    #navbar span{
+        display: none;
     }
 }

@@ -73,13 +73,13 @@ text-align: center;
     list-style: none;
 }
 #navbar ul li{
-    margin: 0 4px;
+    margin: 0 10px;
     padding: 0 5px;
 }
 #navbar ul li a{
-    margin: 0 4px;
+    margin: 0 12px;
     color: black;
-    padding: 8px;
+    padding: 12px;
     display: flex;
     text-decoration: none;
     border-radius: 5px;
@@ -136,7 +136,7 @@ text-align: center;
     list-style: none;
 }
 #kontakt li{
-    padding: 0,5rem 0;
+    padding: 0.5rem 0;
 }
 #kontakt .container {
     display: flex;
@@ -147,8 +147,9 @@ text-align: center;
 #kontakt .kontakt-img {
     background: url("../img/austin-pacheco-FtL07GM9Q7Y-unsplash.jpg") no-repeat center center/cover;
 }
+
 table, tr, td {
     border: 2px solid black;
     background-color: rgb(197, 193, 193);  
-    margin: 0 auto;  
+    margin: 4rem;  
 }
